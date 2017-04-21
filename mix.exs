@@ -17,7 +17,16 @@ defmodule Phx.Mixfile do
   # Type `mix help compile.app` for more information.
   def application do
     [mod: {Phx, []},
-     applications: [:phoenix, :phoenix_pubsub, :phoenix_html, :cowboy, :logger, :gettext]]
+     applications: [
+       :phoenix,
+       :phoenix_pubsub,
+       :phoenix_html,
+       :cowboy,
+       :logger,
+       :gettext,
+       :mix
+     ]
+    ]
   end
 
   # Specifies which paths to compile per environment.
@@ -34,7 +43,12 @@ defmodule Phx.Mixfile do
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
-     {:distillery, "~> 1.0"}
+     # need this for creating releases
+     {:distillery, "~> 1.0"},
+
+     # stuff I need
+    #  {:httpoison, "~> 0.11"},
+    #  {:poison, "~> 3.1", [override: true]}
     ]
   end
 end
