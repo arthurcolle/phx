@@ -1,0 +1,225 @@
+    1  sudo ufw allow 8180
+    2  sudo ufw deny 8180
+    3  exit
+    4  bash <(curl https://get.parity.io -Lk)
+    5  tmux && parity --warp --ui-no-validation --dapps-interface=0.0.0.0 --ui-interface=0.0.0.0
+    6  ls
+    7  tmux attach-session
+    8  exit
+    9  ls
+   10  tmux attach-session
+   11  tmux
+   12  tmux attach-session
+   13  sudo ufw enable 8180
+   14  sudo ufw allow 8180
+   15  tmux attach-session
+   16  ls
+   17  set
+   18  export
+   19  export ABC123=arthurcollehahaha
+   20  unset ABC123
+   21  echo $ABC123
+   22  unset ABC123
+   23  export ABC123=arthurcollehahaha
+   24  echo $ABC123
+   25  unset ABC123
+   26  export (.)=.
+   27  export DOT=.
+   28  echo $DOT
+   29  set
+   30  which set
+   31  alias set=export
+   32  set FIRST=arthur
+   33  echo $FIRST
+   34  concat("ABC","123")
+   35  concat
+   36  alias set=export
+   37  set FIRST=arthur
+   38  set OMG=hello
+   39  set CORP=group
+   40  set AT=@
+   41  set DOT=.
+   42  set TLD=com
+   43  echo $FIRST$AT
+   44  echo $FIRST$AT$LAST$CORP$DOT$TLD
+   45  alias set=export
+   46  set FIRST=arthur
+   47  set LAST=colle
+   48  set OMG=hello
+   49  set CORP=group
+   50  set AT=@
+   51  set DOT=.
+   52  set TLD=com
+   53  echo $FIRST$AT$LAST$CORP$DOT$TLD) #for business inquiries
+   54  echo $OMG$AT$FIRST$LAST$DOT$TLD) #for personal inquiries
+   55  alias set=export
+   56  set FIRST=arthur
+   57  set LAST=colle
+   58  set OMG=hello
+   59  set CORP=group
+   60  set AT=@
+   61  set DOT=.
+   62  set TLD=com
+   63  echo $FIRST$AT$LAST$CORP$DOT$TLD #for business inquiries
+   64  echo $OMG$AT$FIRST$LAST$DOT$TLD #for personal inquiries
+   65  echo "business inquiries: "$FIRST$AT$LAST$CORP$DOT$TLD #for business inquiries
+   66  tmux attach-session
+   67  ethminer
+   68  go
+   69  git clone https://github.com/ethereum/go-ethereum
+   70  clang
+   71  gcc
+   72  sudo apt install golang-go
+   73  sudo apt-get install golang-1.8-go
+   74  sudo apt-get install golang-1.8
+   75  sudo apt-get install golang-go-1.8
+   76  sudo add-apt-repository ppa:longsleep/golang-backports
+   77  sudo apt-get update && sudo apt-get install golang-go
+   78  ls
+   79  cd go-ethereum/
+   80  go
+   81  make geth
+   82  ./build/bin/geth --testnet --mine --minerthreads=4
+   83  ./build/bin/geth --mine --minerthreads=4
+   84  tmux attach-session
+   85  sudo ufw deny 8180
+   86  sudo apt install erlang
+   87  wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb
+   88  sudo dpkg -i erlang-solutions_1.0_all.deb
+   89  ubuntu
+   90  lsb_release -a
+   91  wget -O https://packages.erlang-solutions.com/erlang/esl-erlang/FLAVOUR_1_general/esl-erlang_19.3-1~ubuntu~precise_amd64.deb
+   92  curl -0 https://packages.erlang-solutions.com/erlang/esl-erlang/FLAVOUR_1_general/esl-erlang_19.3-1~ubuntu~precise_amd64.deb
+   93  ls
+   94  rm erlang-solutions_1.0_all.deb 
+   95  ls
+   96  c d...
+   97  cd ..
+   98  ls
+   99  rm -rf go-ethereum/
+  100  ls
+  101  curl https://packages.erlang-solutions.com/erlang/esl-erlang/FLAVOUR_1_general/esl-erlang_19.3-1~ubuntu~precise_amd64.deb
+  102  ls
+  103  tmux attach-session
+  104  sudo vim /etc/apt/sources.list
+  105  lsb_release -c
+  106  wget https://packages.erlang-solutions.com/ubuntu/erlang_solutions.asc
+  107  sudo apt-key add erlang_solutions.asc
+  108  apt update && apt install esl-erlang
+  109  erl
+  110  apt install elixir
+  111  iex
+  112  mix
+  113  mix phoenix.install
+  114  mix local.hex
+  115  mix archive.install https://github.com/phoenixframework/archives/raw/master/phoenix_new.ez
+  116  apt-get install nodejs-legacy
+  117  mix phoenix.new phx
+  118  mix phoenix.server
+  119  cd phx
+  120  mix do deps.get, compile
+  121  mix phoenix.server
+  122  sudo ufw allow 4000
+  123  mix phoenix.server
+  124  psql
+  125  ls
+  126  vim mix.exs
+  127  mix do deps.get, compile
+  128  mix release
+  129  mix release.init
+  130  vim rel/config.exs
+  131  mix release
+  132  _build/dev/rel/phx/bin/phx start
+  133  sudo ufw enable 80
+  134  sudo ufw allow 80
+  135  set MIX_ENV=prod && mix release
+  136  build/dev/rel/phx/bin/phx console
+  137  _build/dev/rel/phx/bin/phx console
+  138  MIX_ENV=prod
+  139  echo $MIX_ENV
+  140  mix release
+  141  mix release --env=prod
+  142  _build/dev/rel/phx/bin/phx start
+  143  _build/dev/rel/phx/bin/phx console
+  144  vim rel/config.exs
+  145  vim mix.exs
+  146  mix release --env=prod
+  147  MIX_ENV=prod mix release --env=prod
+  148  _build/prod/rel/phx/bin/phx console
+  149  _build/prod/rel/phx/bin/phx start
+  150  cd ..
+  151  rm -rf phx
+  152  mix phoenix.new --no-ecto
+  153  ls
+  154  mix phoenix.new phx --no-ecto
+  155  git clone https://github.com/elixir-lang/vim-elixir.git ~/.vim/bundle/vim-elixir
+  156  mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+  157  vim ~/.vimrc
+  158  vim
+  159  git clone https://github.com/elixir-lang/vim-elixir.git ~/.vim/bundle/vim-elixir
+  160  ls
+  161  cd phx
+  162  vim mix.exs
+  163  vim ~/.vimrc
+  164  vim mix.exs
+  165  mix do deps.get, compile
+  166  ls
+  167  vim .
+  168  mix release.init
+  169  MIX_ENV=prod mix release --env=prod
+  170  _build/prod/rel/phx/bin/phx console
+  171  vim config/prod.exs
+  172  ps
+  173  ps -ahl
+  174  ps -a
+  175  kill -9 8744
+  176  ls
+  177  ps -a
+  178  ps -ahl
+  179  MIX_ENV=prod mix release --env=prod
+  180  _build/prod/rel/phx/bin/phx console
+  181  mix phoenix.digest
+  182  _build/prod/rel/phx/bin/phx console
+  183  ls
+  184  cd rel
+  185  ls
+  186  vim config.exs 
+  187  ls
+  188  cd ..
+  189  ./node_modules/brunch/bin/brunch b -p
+  190  MIX_ENV=prod mix release --env=prod
+  191  ./node_modules/brunch/bin/brunch b -p
+  192  MIX_ENV=prod mix phoenix.digest
+  193  MIX_ENV=prod mix release --env=prod
+  194  _build/prod/rel/phx/bin/phx console
+  195  _build/prod/rel/phx/bin/phx 
+  196  _build/prod/rel/phx/bin/phx restart
+  197  MIX_ENV=prod mix release --env=prod_build/prod/rel/phx/bin/phx console
+  198  _build/prod/rel/phx/bin/phx console
+  199  ./node_modules/brunch/bin/brunch b -p
+  200  MIX_ENV=prod mix phoenix.digest
+  201  MIX_ENV=prod mix release --env=prod
+  202  _build/prod/rel/phx/bin/phx console
+  203  ls
+  204  vim config/prod.exs
+  205  MIX_ENV=prod mix release --env=prod
+  206  _build/prod/rel/phx/bin/phx console
+  207  ls
+  208  mix phoenix.server
+  209  git init
+  210  git add .
+  211  git commit -am "Phx testbed app to learn deployment flow for Elixir/Phoenix apps"
+  212  git push
+  213  git remote add origin https://github.com/arthurcolle/phx
+  214  git push -u origin master
+  215  git pull
+  216  MIX_ENV=prod mix release --env=prod
+  217  _build/prod/rel/phx/bin/phx console
+  218  set PORT=8787
+  219  echo $PORT
+  220  export PORT=8787
+  221  _build/prod/rel/phx/bin/phx console
+  222  _build/prod/rel/phx/bin/phx start
+  223  _build/prod/rel/phx/bin/phx stop
+  224  _build/prod/rel/phx/bin/phx start
+  225  history > history.txt
