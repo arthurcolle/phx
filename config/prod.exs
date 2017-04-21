@@ -14,7 +14,8 @@ use Mix.Config
 config :phx, Phx.Endpoint,
   http: [port: {:system, "PORT"}],
   url: [host: "104.236.96.247", port: 8787],
-  cache_static_manifest: "priv/static/manifest.json"
+  cache_static_manifest: "priv/static/manifest.json",
+  server: true
 
 # Do not print debug messages in production
 config :logger, level: :info
