@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+              <meta name="viewport" content="width=device-width, initial-scale=1">
+                  <meta name="description" content="">
+                      <meta name="author" content="">
+                          <meta name="google-site-verification" content="cBUGSzarWQesF75JNZuFQym4tcL2wHWA5fWDJITR1o4" />
+
+                              <title>Collé Group, Inc.</title>
+                                  <link rel="stylesheet" href="/css/app.css">
+                                      <style>
+                                            @import url('https://fonts.googleapis.com/css?family=Lato');
+                                                  h1, p {
+                                                          font-family: 'Lato', sans-serif;
+                                                                }
+                                                                    </style>
+                                                                      </head>
+
+                                                                        <body>
+                                                                            <div class="container">
+                                                                                  <header class="header">
+                                                                                          <nav role="navigation">
+                                                                                                    <!-- <ul class="nav nav-pills pull-right">
+                                                                                                                <li><a href="http://www.phoenixframework.org/docs">Get Started</a></li>
+                                                                                                                          </ul> -->
+                                                                                                                                  </nav>
+                                                                                                                                          <!-- <span class="logo"></span> -->
+                                                                                                                                                </header>
+
+                                                                                                                                                      <p class="alert alert-info" role="alert"></p>
+                                                                                                                                                            <p class="alert alert-danger" role="alert"></p>
+
+                                                                                                                                                                  <main role="main">
+                                                                                                                                                                  <div style="margin: 10% 10% 10% 10%;  text-align: center; font-size: large;">
+                                                                                                                                                                  <h1 style="font-size: large; font-weight: bold;">Collé Group, Inc.</h1>
+                                                                                                                                                                  </br>
+
+                                                                                                                                                                  <!-- <div style="font-size: large;"> an <a href="mailto:arthur@collegroup.com">Arthur Coll&eacute;</a> venture</div>
+                                                                                                                                                                  </div> -->
+
+                                                                                                                                                                  <p style="font-size: small">Privately-held corporation focused on development and commercialization of networked, distributed systems & related Internet technologies.</p>
+                                                                                                                                                                  </br>
+                                                                                                                                                                  <!--<p>We are currently most excited about Ethereum as a platform upon which leaders and engineers can build decentralized applications that improve and disrupt the many social and economic institutions that are most central to our lives - financial services, transportation, land ownership and the legal system.</p>  --> 
+                                                                                                                                                                  <!-- <div class="row marketing" style="height: 100px">
+                                                                                                                                                                    <div class="col-lg-6">
+                                                                                                                                                                        <h4>Resources</h4>
+                                                                                                                                                                            <ul>
+                                                                                                                                                                                  <li>
+                                                                                                                                                                                          <a href="http://phoenixframework.org/docs/overview">Guides</a>
+                                                                                                                                                                                                </li>
+                                                                                                                                                                                                      <li>
+                                                                                                                                                                                                              <a href="https://hexdocs.pm/phoenix">Docs</a>
+                                                                                                                                                                                                                    </li>
+                                                                                                                                                                                                                          <li>
+                                                                                                                                                                                                                                  <a href="https://github.com/phoenixframework/phoenix">Source</a>
+                                                                                                                                                                                                                                        </li>
+                                                                                                                                                                                                                                            </ul>
+                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                            -->
+                                                                                                                                                                                                                                              <!-- <div class="col-lg-6">
+                                                                                                                                                                                                                                                  <h4>Help</h4>
+                                                                                                                                                                                                                                                      <ul>
+                                                                                                                                                                                                                                                            <li>
+                                                                                                                                                                                                                                                                    <a href="http://groups.google.com/group/phoenix-talk">Mailing list</a>
+                                                                                                                                                                                                                                                                          </li>
+                                                                                                                                                                                                                                                                                <li>
+                                                                                                                                                                                                                                                                                        <a href="http://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on freenode IRC</a>
+                                                                                                                                                                                                                                                                                              </li>
+                                                                                                                                                                                                                                                                                                    <li>
+                                                                                                                                                                                                                                                                                                            <a href="https://twitter.com/elixirphoenix">@elixirphoenix</a>
+                                                                                                                                                                                                                                                                                                                  </li>
+                                                                                                                                                                                                                                                                                                                      </ul>
+                                                                                                                                                                                                                                                                                                                        </div> -->
+                                                                                                                                                                                                                                                                                                                        <!-- </div> -->
+                                                                                                                                                                                                                                                                                                                              </main>
+
+                                                                                                                                                                                                                                                                                                                                  </div> <!-- /container -->
+                                                                                                                                                                                                                                                                                                                                      <script src="/js/app.js"></script>
+                                                                                                                                                                                                                                                                                                                                        <iframe src="/phoenix/live_reload/frame" style="display: none;"></iframe>
+                                                                                                                                                                                                                                                                                                                                        </body>
+                                                                                                                                                                                                                                                                                                                                        </html>
