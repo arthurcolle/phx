@@ -24,8 +24,8 @@ defmodule Phx.Mixfile do
        :cowboy,
        :logger,
        :gettext,
-       :mix,
-       :httpoison
+       :mix
+      #  :httpoison
      ]
     ]
   end
