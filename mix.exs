@@ -48,8 +48,8 @@ defmodule Phx.Mixfile do
      {:distillery, "~> 1.0"},
 
      # stuff I need
-     {:httpoison, "~> 0.11"},
-     {:poison, "~> 3.1", [override: true]}
+    #  {:httpoison, "~> 0.11"},
+    #  {:poison, "~> 3.1", [override: true]}
     ]
   end
 end
