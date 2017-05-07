@@ -5,7 +5,7 @@ defmodule Phx.PageController do
     render conn, "index.html"
   end
 
-  def magic_numbers(conn, _params) do
-    render conn, "magic_numbers.html"
-  end
+  # def magic_numbers(conn, _params) do
+  #   render conn, "magic_numbers.html"
+  # end
 end
