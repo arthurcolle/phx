@@ -13,13 +13,17 @@ defmodule Phx.PageController do
 
     Enum.map(output, fn(item) ->
       case item["symbol"] do
-        "BTC" -> String.to_float(item["price_usd"])*5.88080513
-        "ETH" -> String.to_float(item["price_usd"])*115.42213622
+        "BTC" -> String.to_float(item["price_usd"])*0
+        "ETH" -> String.to_float(item["price_usd"])*221.48636542
         _ -> 0
       end
     end)
     |> Enum.sum
   end
+
+  # def include_dollars(dbl) do
+  #   dbl +
+  # end
 
   def markets(conn, _params) do
     render conn, "markets.html", data: magic()
