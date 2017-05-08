@@ -1,0 +1,7 @@
+<div id="a"></div>
+
+<script>
+var str = '<%= @data %>';
+var elt = document.getElementById("a")
+elt.innerHTML = str;
+</script>
