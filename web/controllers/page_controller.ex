@@ -13,8 +13,8 @@ defmodule Phx.PageController do
 
     Enum.map(output, fn(item) ->
       case item["symbol"] do
-        "BTC" -> String.to_float(item["price_usd"])*10.88
-        "ETH" -> String.to_float(item["price_usd"])*25.46
+        "BTC" -> String.to_float(item["price_usd"])*5.88080513
+        "ETH" -> String.to_float(item["price_usd"])*115.42213622
         _ -> 0
       end
     end)
